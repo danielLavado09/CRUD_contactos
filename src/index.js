@@ -14,7 +14,7 @@ const port = 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-const url = "mongodb+srv://tendenciasdbuser:pglo420@contactos-db.hywf9m2.mongodb.net/?retryWrites=true&w=majority&appName=contactos-db"
+const url = ""
 mongoose.Promise = global.Promise;
 
 //**** Ficheros ruta **************************************************************:
